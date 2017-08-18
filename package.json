@@ -1,6 +1,6 @@
 {
   "name": "safeclassname",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "Generate a safe CSS classname from an arbitrary string",
   "main": "safeclassname.js",
   "scripts": {
