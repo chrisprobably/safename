@@ -1,0 +1,30 @@
+{
+  "name": "safename",
+  "version": "0.0.10",
+  "description": "Generate a safe CSS classname from an arbitrary string",
+  "main": "safename.js",
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisprobably/safename.git"
+  },
+  "keywords": [
+    "classname"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chrisprobably/safename/issues"
+  },
+  "devDependencies": {
+    "tap": "^10.1.2"
+  },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "randm.js"
+  ],
+  "homepage": "https://github.com/chrisprobably/safename#readme"
+}
