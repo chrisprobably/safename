@@ -1,8 +1,8 @@
 {
-  "name": "safename",
+  "name": "safeclassname",
   "version": "0.0.10",
   "description": "Generate a safe CSS classname from an arbitrary string",
-  "main": "safename.js",
+  "main": "safeclassname.js",
   "scripts": {
     "test": "tap test/*.js"
   },
