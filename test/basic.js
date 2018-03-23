@@ -20,3 +20,19 @@ t.test('Replaces non-alphanumeric characters with a hex character code', functio
 	t.equal('Super_x21_x23_x24_x26_x2c', safeclassname('Super!#$&,'));
 	t.end();
 });
+
+t.test('returns empty string if passed undefined', function (t) {
+	t.equal('', safeclassname(undefined));
+	t.end();
+});
+
+t.test('returns empty string if passed null', function (t) {
+	t.equal('', safeclassname(null));
+	t.end();
+});
+
+t.test('returns empty string if passed empty string', function (t) {
+	t.equal('', safeclassname(''));
+	t.end();
+});
+
