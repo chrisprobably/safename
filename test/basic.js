@@ -36,3 +36,18 @@ t.test('returns empty string if passed empty string', function (t) {
 	t.end();
 });
 
+
+t.test('Does not replace digits', function (t) {
+	t.equal('abc123', safeclassname('abc123'));
+	t.end();
+});
+
+t.test('Replaces non-space whitespace with a hex character code', function (t) {
+	t.equal('foo_x9bar_xa', safeclassname('foo\tbar\n'));
+	t.end();
+});
+
+t.test('Replaces non-ASCII characters with a hex character code', function (t) {
+	t.equal('caf_xe9', safeclassname('café'));
+	t.end();
+});
