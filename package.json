@@ -20,7 +20,7 @@
     "url": "https://github.com/chrisprobably/safename/issues"
   },
   "devDependencies": {
-    "tap": "^10.1.2"
+    "tap": "^21.8.0"
   },
   "files": [
     "LICENSE",
